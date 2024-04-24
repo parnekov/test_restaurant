@@ -1,0 +1,272 @@
+5847c2603dec9b647d4b78b6c04e2cc4
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var _exportNames = {
+  enableScreens: true,
+  enableFreeze: true,
+  screensEnabled: true,
+  freezeEnabled: true,
+  shouldUseActivityState: true,
+  Screen: true,
+  NativeScreen: true,
+  InnerScreen: true,
+  ScreenContext: true,
+  ScreenContainer: true,
+  NativeScreenContainer: true,
+  NativeScreenNavigationContainer: true,
+  ScreenStack: true,
+  ScreenStackHeaderConfig: true,
+  ScreenStackHeaderSubview: true,
+  ScreenStackHeaderLeftView: true,
+  ScreenStackHeaderCenterView: true,
+  ScreenStackHeaderRightView: true,
+  ScreenStackHeaderBackButtonImage: true,
+  ScreenStackHeaderSearchBarView: true,
+  SearchBar: true,
+  NativeSearchBar: true,
+  NativeSearchBarCommands: true,
+  FullWindowOverlay: true,
+  NativeScreensModule: true,
+  GHContext: true,
+  isSearchBarAvailableForCurrentPlatform: true,
+  isNewBackTitleImplementation: true,
+  executeNativeBackPress: true,
+  useTransitionProgress: true
+};
+Object.defineProperty(exports, "FullWindowOverlay", {
+  enumerable: true,
+  get: function get() {
+    return _FullWindowOverlay.default;
+  }
+});
+Object.defineProperty(exports, "GHContext", {
+  enumerable: true,
+  get: function get() {
+    return _GHContext.GHContext;
+  }
+});
+Object.defineProperty(exports, "InnerScreen", {
+  enumerable: true,
+  get: function get() {
+    return _Screen.InnerScreen;
+  }
+});
+Object.defineProperty(exports, "NativeScreen", {
+  enumerable: true,
+  get: function get() {
+    return _Screen.NativeScreen;
+  }
+});
+Object.defineProperty(exports, "NativeScreenContainer", {
+  enumerable: true,
+  get: function get() {
+    return _ScreenContainer.NativeScreenContainer;
+  }
+});
+Object.defineProperty(exports, "NativeScreenNavigationContainer", {
+  enumerable: true,
+  get: function get() {
+    return _ScreenContainer.NativeScreenNavigationContainer;
+  }
+});
+Object.defineProperty(exports, "NativeScreensModule", {
+  enumerable: true,
+  get: function get() {
+    return _NativeScreensModule.default;
+  }
+});
+Object.defineProperty(exports, "NativeSearchBar", {
+  enumerable: true,
+  get: function get() {
+    return _SearchBar.NativeSearchBar;
+  }
+});
+Object.defineProperty(exports, "NativeSearchBarCommands", {
+  enumerable: true,
+  get: function get() {
+    return _SearchBar.NativeSearchBarCommands;
+  }
+});
+Object.defineProperty(exports, "Screen", {
+  enumerable: true,
+  get: function get() {
+    return _Screen.default;
+  }
+});
+Object.defineProperty(exports, "ScreenContainer", {
+  enumerable: true,
+  get: function get() {
+    return _ScreenContainer.default;
+  }
+});
+Object.defineProperty(exports, "ScreenContext", {
+  enumerable: true,
+  get: function get() {
+    return _Screen.ScreenContext;
+  }
+});
+Object.defineProperty(exports, "ScreenStack", {
+  enumerable: true,
+  get: function get() {
+    return _ScreenStack.default;
+  }
+});
+Object.defineProperty(exports, "ScreenStackHeaderBackButtonImage", {
+  enumerable: true,
+  get: function get() {
+    return _ScreenStackHeaderConfig.ScreenStackHeaderBackButtonImage;
+  }
+});
+Object.defineProperty(exports, "ScreenStackHeaderCenterView", {
+  enumerable: true,
+  get: function get() {
+    return _ScreenStackHeaderConfig.ScreenStackHeaderCenterView;
+  }
+});
+Object.defineProperty(exports, "ScreenStackHeaderConfig", {
+  enumerable: true,
+  get: function get() {
+    return _ScreenStackHeaderConfig.ScreenStackHeaderConfig;
+  }
+});
+Object.defineProperty(exports, "ScreenStackHeaderLeftView", {
+  enumerable: true,
+  get: function get() {
+    return _ScreenStackHeaderConfig.ScreenStackHeaderLeftView;
+  }
+});
+Object.defineProperty(exports, "ScreenStackHeaderRightView", {
+  enumerable: true,
+  get: function get() {
+    return _ScreenStackHeaderConfig.ScreenStackHeaderRightView;
+  }
+});
+Object.defineProperty(exports, "ScreenStackHeaderSearchBarView", {
+  enumerable: true,
+  get: function get() {
+    return _ScreenStackHeaderConfig.ScreenStackHeaderSearchBarView;
+  }
+});
+Object.defineProperty(exports, "ScreenStackHeaderSubview", {
+  enumerable: true,
+  get: function get() {
+    return _ScreenStackHeaderConfig.ScreenStackHeaderSubview;
+  }
+});
+Object.defineProperty(exports, "SearchBar", {
+  enumerable: true,
+  get: function get() {
+    return _SearchBar.default;
+  }
+});
+Object.defineProperty(exports, "enableFreeze", {
+  enumerable: true,
+  get: function get() {
+    return _core.enableFreeze;
+  }
+});
+Object.defineProperty(exports, "enableScreens", {
+  enumerable: true,
+  get: function get() {
+    return _core.enableScreens;
+  }
+});
+Object.defineProperty(exports, "executeNativeBackPress", {
+  enumerable: true,
+  get: function get() {
+    return _utils.executeNativeBackPress;
+  }
+});
+Object.defineProperty(exports, "freezeEnabled", {
+  enumerable: true,
+  get: function get() {
+    return _core.freezeEnabled;
+  }
+});
+Object.defineProperty(exports, "isNewBackTitleImplementation", {
+  enumerable: true,
+  get: function get() {
+    return _utils.isNewBackTitleImplementation;
+  }
+});
+Object.defineProperty(exports, "isSearchBarAvailableForCurrentPlatform", {
+  enumerable: true,
+  get: function get() {
+    return _utils.isSearchBarAvailableForCurrentPlatform;
+  }
+});
+Object.defineProperty(exports, "screensEnabled", {
+  enumerable: true,
+  get: function get() {
+    return _core.screensEnabled;
+  }
+});
+Object.defineProperty(exports, "shouldUseActivityState", {
+  enumerable: true,
+  get: function get() {
+    return _core.shouldUseActivityState;
+  }
+});
+Object.defineProperty(exports, "useTransitionProgress", {
+  enumerable: true,
+  get: function get() {
+    return _useTransitionProgress.default;
+  }
+});
+var _types = require("./types");
+Object.keys(_types).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _types[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _types[key];
+    }
+  });
+});
+var _core = require("./core");
+var _Screen = _interopRequireWildcard(require("./components/Screen"));
+var _ScreenContainer = _interopRequireWildcard(require("./components/ScreenContainer"));
+var _ScreenStack = _interopRequireDefault(require("./components/ScreenStack"));
+var _ScreenStackHeaderConfig = require("./components/ScreenStackHeaderConfig");
+var _SearchBar = _interopRequireWildcard(require("./components/SearchBar"));
+var _FullWindowOverlay = _interopRequireDefault(require("./components/FullWindowOverlay"));
+var _NativeScreensModule = _interopRequireDefault(require("./fabric/NativeScreensModule"));
+var _GHContext = require("./native-stack/contexts/GHContext");
+var _utils = require("./utils");
+var _useTransitionProgress = _interopRequireDefault(require("./useTransitionProgress"));
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : {
+    default: obj
+  };
+}
+function _getRequireWildcardCache(e) {
+  if ("function" != typeof WeakMap) return null;
+  var r = new WeakMap(),
+    t = new WeakMap();
+  return (_getRequireWildcardCache = function _getRequireWildcardCache(e) {
+    return e ? t : r;
+  })(e);
+}
+function _interopRequireWildcard(e, r) {
+  if (!r && e && e.__esModule) return e;
+  if (null === e || "object" != typeof e && "function" != typeof e) return {
+    default: e
+  };
+  var t = _getRequireWildcardCache(r);
+  if (t && t.has(e)) return t.get(e);
+  var n = {
+      __proto__: null
+    },
+    a = Object.defineProperty && Object.getOwnPropertyDescriptor;
+  for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) {
+    var i = a ? Object.getOwnPropertyDescriptor(e, u) : null;
+    i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u];
+  }
+  return n.default = e, t && t.set(e, n), n;
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfdHlwZXMiLCJyZXF1aXJlIiwiT2JqZWN0Iiwia2V5cyIsImZvckVhY2giLCJrZXkiLCJwcm90b3R5cGUiLCJoYXNPd25Qcm9wZXJ0eSIsImNhbGwiLCJfZXhwb3J0TmFtZXMiLCJleHBvcnRzIiwiZGVmaW5lUHJvcGVydHkiLCJlbnVtZXJhYmxlIiwiZ2V0IiwiX2NvcmUiLCJfU2NyZWVuIiwiX2ludGVyb3BSZXF1aXJlV2lsZGNhcmQiLCJfU2NyZWVuQ29udGFpbmVyIiwiX1NjcmVlblN0YWNrIiwiX2ludGVyb3BSZXF1aXJlRGVmYXVsdCIsIl9TY3JlZW5TdGFja0hlYWRlckNvbmZpZyIsIl9TZWFyY2hCYXIiLCJfRnVsbFdpbmRvd092ZXJsYXkiLCJfTmF0aXZlU2NyZWVuc01vZHVsZSIsIl9HSENvbnRleHQiLCJfdXRpbHMiLCJfdXNlVHJhbnNpdGlvblByb2dyZXNzIiwib2JqIiwiX19lc01vZHVsZSIsImRlZmF1bHQiLCJfZ2V0UmVxdWlyZVdpbGRjYXJkQ2FjaGUiLCJlIiwiV2Vha01hcCIsInIiLCJ0IiwiaGFzIiwibiIsIl9fcHJvdG9fXyIsImEiLCJnZXRPd25Qcm9wZXJ0eURlc2NyaXB0b3IiLCJ1IiwiaSIsInNldCJdLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9pbmRleC50c3giXSwic291cmNlc0NvbnRlbnQiOltudWxsXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQSxJQUFBQSxNQUFBLEdBQUFDLE9BQUE7QUFBQUMsTUFBQSxDQUFBQyxJQUFBLENBQUFILE1BQUEsRUFB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

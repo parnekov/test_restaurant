@@ -1,0 +1,369 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyOrder screen tests MyOrder matches snapshot 1`] = `
+<BVLinearGradient
+  colors={
+    [
+      4294955419,
+      4294949277,
+      4294947762,
+    ]
+  }
+  endPoint={
+    {
+      "x": 0,
+      "y": 1,
+    }
+  }
+  locations={
+    [
+      0,
+      0.4,
+      0.7,
+    ]
+  }
+  startPoint={
+    {
+      "x": 0,
+      "y": 0.15,
+    }
+  }
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+  testID="My order-container"
+>
+  <RCTScrollView
+    ListFooterComponent={[Function]}
+    ListHeaderComponent={
+      <CheckBox
+        checkedColor="#FFD19B"
+        onChange={[Function]}
+        style={
+          {
+            "marginBottom": 16,
+          }
+        }
+        testID="My order-list-header-checkbox"
+        title="Select all"
+      />
+    }
+    contentContainerStyle={
+      {
+        "padding": 16,
+        "paddingBottom": 128,
+      }
+    }
+    data={[]}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    renderItem={[Function]}
+    scrollEventThrottle={0.0001}
+    stickyHeaderIndices={[]}
+    testID="My order-list"
+  >
+    <View>
+      <View
+        collapsable={false}
+        onLayout={[Function]}
+      >
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "marginBottom": 16,
+              "opacity": 1,
+            }
+          }
+          testID="My order-list-header-checkbox"
+        >
+          <View
+            style={
+              [
+                {
+                  "borderColor": "#000000",
+                  "borderRadius": 2,
+                  "borderWidth": 1.5,
+                  "height": 16,
+                  "marginRight": 8,
+                  "width": 16,
+                },
+                {
+                  "backgroundColor": "#FFFFFF",
+                },
+              ]
+            }
+          >
+            <RNSVGSvgView
+              align="xMidYMid"
+              bbHeight={16}
+              bbWidth={16}
+              color="#FFFFFF"
+              focusable={false}
+              height={16}
+              meetOrSlice={0}
+              minX={0}
+              minY={0}
+              size={16}
+              style={
+                [
+                  {
+                    "backgroundColor": "transparent",
+                    "borderWidth": 0,
+                  },
+                  {
+                    "flex": 0,
+                    "height": 16,
+                    "width": 16,
+                  },
+                ]
+              }
+              tintColor="#FFFFFF"
+              vbHeight={32}
+              vbWidth={32}
+              width={16}
+            >
+              <RNSVGGroup
+                fill={
+                  {
+                    "payload": 4278190080,
+                    "type": 0,
+                  }
+                }
+              >
+                <RNSVGPath
+                  d="m5 16.577 2.194-2.195 5.486 5.484L24.804 7.743 27 9.937l-14.32 14.32z"
+                  fill={
+                    {
+                      "payload": 4294967295,
+                      "type": 0,
+                    }
+                  }
+                  propList={
+                    [
+                      "fill",
+                    ]
+                  }
+                />
+              </RNSVGGroup>
+            </RNSVGSvgView>
+          </View>
+          <Text
+            style={
+              {
+                "color": "#60324E",
+                "fontSize": 16,
+                "fontWeight": "600",
+              }
+            }
+          >
+            Select all
+          </Text>
+        </View>
+      </View>
+      <View
+        onLayout={[Function]}
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "#FFFFFF",
+              "borderRadius": 2,
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginVertical": 16,
+              "padding": 16,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#532C45",
+                "fontSize": 18,
+                "fontWeight": "700",
+              }
+            }
+          >
+            Total: 
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#532C45",
+                "fontSize": 18,
+                "fontWeight": "700",
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "color": "#532C45",
+                    "fontSize": 14,
+                    "fontWeight": "700",
+                  },
+                ]
+              }
+            />
+             
+            <Text
+              style={
+                {
+                  "color": "#532C45",
+                  "fontSize": 14,
+                  "fontWeight": "700",
+                }
+              }
+            >
+              / 
+            </Text>
+            <Text
+              style={
+                {
+                  "color": "#532C45",
+                  "fontSize": 14,
+                  "fontWeight": "500",
+                }
+              }
+            >
+              CHF
+            </Text>
+             
+            <Text>
+              0.00
+            </Text>
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      {
+        "bottom": 46,
+        "paddingHorizontal": 16,
+        "position": "absolute",
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": true,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "backgroundColor": "#B0B0B0",
+          "borderRadius": 32,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "opacity": 1,
+          "padding": 16,
+        }
+      }
+      testID="My order-pay-button"
+    >
+      <Text
+        style={
+          {
+            "color": "#FFFFFF",
+            "fontSize": 18,
+            "fontWeight": "700",
+          }
+        }
+      >
+        PAY 
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#FFFFFF",
+            "fontSize": 18,
+            "fontWeight": "700",
+          }
+        }
+      >
+        <Text />
+         
+        <Text>
+          / 
+        </Text>
+        <Text>
+          0.00
+        </Text>
+         
+        <Text>
+          CHF
+        </Text>
+      </Text>
+    </View>
+  </View>
+</BVLinearGradient>
+`;

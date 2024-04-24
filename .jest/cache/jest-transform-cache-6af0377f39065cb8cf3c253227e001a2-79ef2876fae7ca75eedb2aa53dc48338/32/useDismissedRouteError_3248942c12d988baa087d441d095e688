@@ -1,0 +1,69 @@
+36531dff4340db963f334e3187d7c14e
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+var _slicedToArray2 = _interopRequireDefault(require("@babel/runtime/helpers/slicedToArray"));
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = useInvalidPreventRemoveError;
+var React = _interopRequireWildcard(require("react"));
+function _getRequireWildcardCache(nodeInterop) {
+  if (typeof WeakMap !== "function") return null;
+  var cacheBabelInterop = new WeakMap();
+  var cacheNodeInterop = new WeakMap();
+  return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) {
+    return nodeInterop ? cacheNodeInterop : cacheBabelInterop;
+  })(nodeInterop);
+}
+function _interopRequireWildcard(obj, nodeInterop) {
+  if (!nodeInterop && obj && obj.__esModule) {
+    return obj;
+  }
+  if (obj === null || typeof obj !== "object" && typeof obj !== "function") {
+    return {
+      default: obj
+    };
+  }
+  var cache = _getRequireWildcardCache(nodeInterop);
+  if (cache && cache.has(obj)) {
+    return cache.get(obj);
+  }
+  var newObj = {};
+  var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor;
+  for (var key in obj) {
+    if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) {
+      var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null;
+      if (desc && (desc.get || desc.set)) {
+        Object.defineProperty(newObj, key, desc);
+      } else {
+        newObj[key] = obj[key];
+      }
+    }
+  }
+  newObj.default = obj;
+  if (cache) {
+    cache.set(obj, newObj);
+  }
+  return newObj;
+}
+function useInvalidPreventRemoveError(state) {
+  var _state$routes$find;
+  var _React$useState = React.useState(null),
+    _React$useState2 = (0, _slicedToArray2.default)(_React$useState, 2),
+    nextDismissedKey = _React$useState2[0],
+    setNextDismissedKey = _React$useState2[1];
+  var dismissedRouteName = nextDismissedKey ? (_state$routes$find = state.routes.find(function (route) {
+    return route.key === nextDismissedKey;
+  })) === null || _state$routes$find === void 0 ? void 0 : _state$routes$find.name : null;
+  React.useEffect(function () {
+    if (dismissedRouteName) {
+      var message = `The screen '${dismissedRouteName}' was removed natively but didn't get removed from JS state. ` + `This can happen if the action was prevented in a 'beforeRemove' listener, which is not fully supported in native-stack.\n\n` + `Consider using a 'usePreventRemove' hook with 'headerBackButtonMenuEnabled: false' to prevent users from natively going back multiple screens.`;
+      console.error(message);
+    }
+  }, [dismissedRouteName]);
+  return {
+    setNextDismissedKey: setNextDismissedKey
+  };
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJSZWFjdCIsIl9pbnRlcm9wUmVxdWlyZVdpbGRjYXJkIiwicmVxdWlyZSIsIl9nZXRSZXF1aXJlV2lsZGNhcmRDYWNoZSIsIm5vZGVJbnRlcm9wIiwiV2Vha01hcCIsImNhY2hlQmFiZWxJbnRlcm9wIiwiY2FjaGVOb2RlSW50ZXJvcCIsIm9iaiIsIl9fZXNNb2R1bGUiLCJkZWZhdWx0IiwiY2FjaGUiLCJoYXMiLCJnZXQiLCJuZXdPYmoiLCJoYXNQcm9wZXJ0eURlc2NyaXB0b3IiLCJPYmplY3QiLCJkZWZpbmVQcm9wZXJ0eSIsImdldE93blByb3BlcnR5RGVzY3JpcHRvciIsImtleSIsInByb3RvdHlwZSIsImhhc093blByb3BlcnR5IiwiY2FsbCIsImRlc2MiLCJzZXQiLCJ1c2VJbnZhbGlkUHJldmVudFJlbW92ZUVycm9yIiwic3RhdGUiLCJfc3RhdGUkcm91dGVzJGZpbmQiLCJfUmVhY3QkdXNlU3RhdGUiLCJ1c2VTdGF0ZSIsIl9SZWFjdCR1c2VTdGF0ZTIiLCJfc2xpY2VkVG9BcnJheTIiLCJuZXh0RGlzbWlzc2VkS2V5Iiwic2V0TmV4dERpc21pc3NlZEtleSIsImRpc21pc3NlZFJvdXRlTmFtZSIsInJvdXRlcyIsImZpbmQiLCJyb3V0ZSIsIm5hbWUiLCJ1c2VFZmZlY3QiLCJtZXNzYWdlIiwiY29uc29sZSIsImVycm9yIl0sInNvdXJjZXMiOlsiLi4vLi4vLi4vc3JjL3V0aWxzL3VzZURpc21pc3NlZFJvdXRlRXJyb3IudHN4Il0sInNvdXJjZXNDb250ZW50IjpbbnVsbF0sIm1hcHBpbmdzIjoiOzs7Ozs7OztBQUlBLElBQUFBLEtBQUEsR0FBQUMsdUJBQUEsQ0FBQUMsT0FBQTtBQUErQixTQUFBQyx5QkFBQUMsV0FBQTtFQUFBLFdBQUFDLE9BQUE7RUFBQSxJQUFBQyxpQkFBQSxPQUFBRCxPQUFBO0VBQUEsSUFBQUUsZ0JBQUEsT0FBQUYsT0FBQTtFQUFBLFFBQUFGLHdCQUFBLFlBQUFBLHlCQUFBQyxXQUFBO0lBQUEsT0FBQUEsV0FBQSxHQUFB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
